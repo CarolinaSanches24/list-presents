@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('gift_lists', function (Blueprint $table) {
                 $table->uuid('id')->primary();
-                $table->foreignUuid('owner_id')->constrained('users')->onDelete('cascade');
+                $table->foreignUuid('owner_id')->references('id')->on('users');
                 $table->string('title');
                 $table->text('description')->nullable();
                 $table->enum('visibility',['private','public','unlisted'])->default('private');
