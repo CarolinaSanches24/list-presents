@@ -1,0 +1,4 @@
+{
+    "laravel-ide-helper.sailContainerName": "app",
+    "laravel-ide-helper.phpCommand": "./vendor/bin/sail php"
+}
