@@ -28,3 +28,5 @@ Execute este código dentro de um bloqueio para evitar que duas pessoas mexam na
 - Criar migração  (php artisan make:model Gift -m)
 - Rodar a migração no container (docker exec -it nome_do_container_php php artisan migrate)
 - Refazer tudo do zero (docker exec -it nome_do_container_php php artisan migrate:fresh)
+
+

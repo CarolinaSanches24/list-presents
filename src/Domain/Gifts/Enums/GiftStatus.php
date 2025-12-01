@@ -1,6 +1,6 @@
 <?php
 
-namespace src\Domain\Gifts\Enums;
+namespace Src\Domain\Gifts\Enums;
 
 enum GiftStatus : string {
     case AVAILABLE = 'available';

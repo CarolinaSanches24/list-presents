@@ -1,5 +1,5 @@
 <?php
 
-namespace src\Domain\Gifts\Exceptions;
+namespace Src\Domain\Gifts\Exceptions;
 
 class GiftAlreadyPurchased extends \RuntimeException {}
